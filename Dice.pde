@@ -3,12 +3,11 @@ void setup()
   size(600, 700);
   noLoop();
   textAlign(CENTER);
-  background(255);
 }
 void draw()
 {
   int total = 0;
-  background(255);
+  background(200);
   for (int y = 0; y < 600; y+=100){
     for (int x = 0; x < 600; x+=100){
       Dicee bob = new Dicee(x, y);
