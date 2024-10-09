@@ -3,6 +3,7 @@ void setup()
   size(600, 700);
   noLoop();
   textAlign(CENTER);
+  noStroke();
 }
 void draw()
 {
