@@ -1,6 +1,6 @@
 void setup()
 {
-  size(600, 700);
+  size(600, 650);
   noLoop();
   textAlign(CENTER);
   noStroke();
@@ -98,6 +98,6 @@ class Dicee
   
 }
 void displayTotal(int num){
-    textSize(50);
-    text("Total: " + num, 300, 650);
+    textSize(30);
+    text("Total: " + num, 300, 630);
   }
